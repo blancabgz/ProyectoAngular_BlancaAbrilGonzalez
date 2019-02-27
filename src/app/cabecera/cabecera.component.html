@@ -1,0 +1,32 @@
+<ng-container *ngIf="modo; else elseTemplate">
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/flatly/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T5jhQKMh96HMkXwqVMSjF3CmLcL1nT9//tCqu9By5XSdj7CwR0r+F3LTzUdfkkQf" crossorigin="anonymous">
+</ng-container>
+<ng-template #elseTemplate>
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/superhero/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LS4/wo5Z/8SLpOLHs0IbuPAGOWTx30XSoZJ8o7WKH0UJhRpjXXTpODOjfVnNjeHu" crossorigin="anonymous">
+</ng-template>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 titulo" style="text-align: center;"><a routerLink='/'>ÚLTIMOS DESCUBRIMIENTOS</a></div>
+  </div>
+  <div class="row">
+      <div ngbDropdown class="col-5 category" style="margin-left:5%;" >
+        <button class="btn" id="dropdownBasic1" ngbDropdownToggle>SETTINGS</button>
+        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+          <button class="dropdown-item" (click)="modo=true;" >Blanco</button>
+          <button class="dropdown-item" (click)="modo=false;">Negro</button>
+        </div>
+      </div>
+      <div ngbDropdown class="col-5 category" style="text-align: right;" >
+        <button class="btn" id="dropdownBasic1" ngbDropdownToggle>Categoria</button>
+        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+          <button class="dropdown-item" routerLink='/romance'>Romace</button>
+          <button class="dropdown-item" routerLink='/comedia'>Comedia</button>
+          <button class="dropdown-item" routerLink='/ficcion'>Ficcion</button>
+        </div>
+      </div>
+    </div>
+</div>
+

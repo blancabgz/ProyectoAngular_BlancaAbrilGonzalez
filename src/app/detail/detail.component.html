@@ -1,0 +1,16 @@
+<div class="row" style="margin: 2%;">
+  <div class="tituloImagen col-6">
+    <img src="{{datos.volumeInfo.imageLinks.small}}" alt="">
+  </div>
+  <div class="datos col-6">
+    <h2>
+      {{datos.volumeInfo.title}}
+    </h2>
+    <div style="margin-right: 10%;">
+        <h5>{{datos.volumeInfo.authors}}</h5>
+        <h6>{{datos.volumeInfo.publisher}}</h6>
+        <p innerHTML="{{datos.volumeInfo.description}}"></p>
+    </div>
+
+  </div>
+</div>

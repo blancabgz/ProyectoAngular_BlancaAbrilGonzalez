@@ -1,0 +1,22 @@
+.loading img, .boton{
+    margin: 0 auto;
+    display: block;
+}
+
+.ficcion{
+    margin-top: 3%;
+}
+
+.libros{
+    margin-bottom: 50px;
+    
+}
+
+.libros h5{
+    margin-top: 10px;
+    color: #758af0;
+}
+
+.ficcion img{
+    height: 200px;
+}

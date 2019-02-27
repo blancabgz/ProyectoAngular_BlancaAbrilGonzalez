@@ -1,0 +1,22 @@
+.loading img, .boton{
+    margin: 0 auto;
+    display: block;
+}
+
+.libros{
+    margin-bottom: 50px;
+    
+}
+
+.libros h5{
+    margin-top: 10px;
+    color: #758af0;
+}
+
+.comedia{
+    margin-top: 3%;
+}
+
+.comedia img{
+    height: 200px;
+}

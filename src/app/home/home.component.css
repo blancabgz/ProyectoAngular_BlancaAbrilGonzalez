@@ -1,0 +1,53 @@
+h2{
+    margin-top: 2%;
+    text-align: center;
+}
+.loading img, .boton, .verMas{
+    margin: 0 auto;
+    display: block;
+}
+
+
+.verMas{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.loading img{
+    margin-top: 5%;
+    height: 20px;
+}
+
+h5{
+    margin: 5%;
+    font-weight: bold;
+    color: #2B69E1;
+}
+
+p{
+    font-weight: bold;
+}
+
+.columnahija{
+    height: 400px;
+    margin-top: 4%;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+    background-color: #A2ADAE;
+}
+
+.columnahija img{
+    margin-top: 10%;
+}
+
+.home{
+    margin-top: 3%;
+}
+
+h2{
+    color:#16b696; 
+    font-family: 'Abril Fatface', cursive;
+}

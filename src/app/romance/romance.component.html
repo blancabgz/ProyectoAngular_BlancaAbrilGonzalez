@@ -1,0 +1,19 @@
+<div class="romance" *ngIf="libros">
+  <div *ngFor="let libro of libros" class="row columna animated slideInLeft">
+    <div *ngFor="let item of libro.items" class="col-3" style="text-align:center">
+      <div class="libros" routerLink='/detail/{{item.id}}' style="cursor:pointer;">
+        <img src="{{item.volumeInfo.imageLinks.smallThumbnail}}">
+        <h5>{{item.volumeInfo.title}}</h5>
+        <p>{{item.volumeInfo.description | truncate: 100}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="loading==false">
+  <button class="boton" (click)="mostrarLibros()" style="margin-bottom: 15px;">Cargar mas</button>
+</div>
+
+<div class="loading" *ngIf="loading">
+  <img src="../../assets/images/cargando.gif">
+</div>

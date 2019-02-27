@@ -1,0 +1,26 @@
+.tituloImagen{
+    text-align: right;
+    margin-top: 2%;
+   
+    margin: 0 auto;
+    display: block;
+}
+
+.tituloImagen img{
+    height: 400px;
+    margin-right: 20%;
+}
+
+.datos{
+    text-align: center;
+}
+
+.datos h2{
+    font-family: 'Anton', sans-serif;
+    color: cornflowerblue;
+}
+
+h5{
+    color:mediumturquoise; font-weight: bold;
+}
+
