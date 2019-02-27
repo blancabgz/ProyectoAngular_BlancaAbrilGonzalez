@@ -1,5 +1,12 @@
 # BlancaAbrilGonzalezAngular
 
+## En producción
+[Enlace](https://musing-mirzakhani-cf5802.netlify.com/)
+
+## Importante
+
+Jose he podido arreglar lo del proyecto, el fallo era la carpeta dist, pero he conseguido que netlify me lo suba directamente. En principio funciona perfectamente. La API le estan metiendo cosas asi que, si falla algo asi de datos, te da un error 404 que es de la API. 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1.
 
 ## Development server
